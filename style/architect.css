@@ -234,6 +234,9 @@ margin-bottom: 20px;
         margin-left: 0;
         margin-bottom: 0;
     }
+    .facts-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
     
 }
 /* Medium devices */
@@ -252,4 +255,9 @@ margin-bottom: 20px;
         margin-top: 30px;
         margin-left: 0;
         margin-bottom: 0;
+}
+.facts-container{
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
 }
